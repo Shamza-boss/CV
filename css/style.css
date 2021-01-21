@@ -70,9 +70,6 @@ a:hover{
     height: 250px;
     height: 250px;
 }
-.profile{
-    line-height: 2;
-}
 
 .middle-container{
     line-height: 2;
@@ -86,11 +83,11 @@ a:hover{
 }
 .intro-text{
     color: #FFFFFF;
-    width: 30%;
+    width: 80%;
     margin: auto;
 }
 .contact-me{
-    width: 50%;
+    width: 80%;
     margin: 100px auto 100px auto;
     line-height: 2;
 }
@@ -109,13 +106,17 @@ hr{
     font-size: 0.75rem;
 }
 .education-row{
-    width: 50%;
+    width: 80%;
     margin: 100px auto 100px auto;
     text-align: left;
     line-height: 2;
 }
+
+.profile{
+    line-height: 2;
+}
 .skill-row{
-    width: 50%;
+    width: 80%;
     margin: 100px auto 100px auto;
     text-align: left;
 }
