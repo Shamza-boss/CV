@@ -103,6 +103,7 @@ hr{
 }
 .table{
     margin: auto;
+    font-size:x-large;
 }
 .merc{
     font-size: 0.75rem;
@@ -115,6 +116,11 @@ hr{
 }
 .skill-row{
     width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+.skill-table{
+    width: 80%;
     margin: 100px auto 100px auto;
     text-align: left;
 }
