@@ -1,0 +1,187 @@
+body{
+    margin: 0;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #323232;
+    font-family: 'Fraunces', serif;
+}
+h1{
+    margin: 50px auto 0 auto;
+    font-size: 5.625rem;
+    color: #ff1e56;
+    font-family: 'Lobster', cursive;
+}
+.aspire-h1{
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+h2{
+    font-family: 'Indie Flower', cursive;
+    color: #ff1e56;
+    font-weight: normal;
+    font-size: 2.5rem;
+}
+h3{
+    color: #ffac41;
+    font-family: 'Libre Baskerville', serif;
+}
+.footer{
+    text-decoration: none;
+    color: #11999E;
+}
+.footer-link{
+    color: #11999E;
+    margin: 5px 20px 5px 20px;
+    font-family: 'Yusei Magic', sans-serif;
+    text-decoration: none;
+}
+.top-container{
+    background-color: #000000;
+    line-height: 2;
+    position: relative;/**makes anything within it that uses absolute be able to position itself relative to this container**/
+    padding-top: 100px;
+}
+.time-code{
+    height: 200px;
+    padding-bottom: 60px;
+}
+.moon{
+    position: absolute;
+    left: 100px;
+    top: 30px;
+    width: 120px;
+}
+.shooting-star{/**this cloud is relative to the top-container as its position is set to absolute**/
+    position: absolute;
+    top: 120px;
+    width: 60px;
+    right: 400px;
+}
+.stars{
+    position: absolute;
+    left: 300px;
+    bottom: 400px;
+    width: 60px;
+}
+a:hover{
+    color: #EAF6F6;
+}
+.img-body{
+    height: 250px;
+    height: 250px;
+}
+
+.middle-container{
+    line-height: 2;
+    margin: 100px 0px 100px 0px;
+}
+.bottom-container{
+    line-height: 2;
+    background-color: #000000;
+    color: #EAF6F6;
+    padding: 40px 0px 20px 0px;
+}
+.intro-text{
+    color: #FFFFFF;
+    width: 80%;
+    margin: auto;
+}
+.contact-me{
+    width: 80%;
+    margin: 100px auto 100px auto;
+    line-height: 2;
+}
+hr{
+    border-style: dotted none none none;
+    border-color: #EAF6F6;
+    border-width: 7px;
+    margin: 100px auto 100px auto;
+    width: 6%;
+}
+.table{
+    margin: auto;
+}
+.merc{
+    font-size: 0.75rem;
+}
+.education-row{
+    width: 80%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.profile{
+    line-height: 2;
+}
+.skill-row{
+    width: 80%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+.skill-table{
+    width: 80%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+p{
+    
+    line-height: 2;
+}
+.web-img{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+.snooker-img{
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+.contact-message{
+    width: 60%;
+    margin: 30px auto 60px auto;
+}
+.pro{
+    text-decoration: underline;
+}
+.copyright{
+    font-size: 0.75rem;
+}
+.btn {
+    background: #3D94F6;
+    background-image: -webkit-linear-gradient(top, #3D94F6, #1E62D0);
+    background-image: -moz-linear-gradient(top, #3D94F6, #1E62D0);
+    background-image: -ms-linear-gradient(top, #3D94F6, #1E62D0);
+    background-image: -o-linear-gradient(top, #3D94F6, #1E62D0);
+    background-image: -webkit-gradient(to bottom, #3D94F6, #1E62D0);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-family: Trebuchet MS;
+    font-size: 12px;
+    font-weight: 100;
+    padding: 20px;
+    -webkit-box-shadow: 1px 1px 20px 0 #000000;
+    -moz-box-shadow: 1px 1px 20px 0 #000000;
+    box-shadow: 1px 1px 20px 0 #000000;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+ }
+ 
+ .btn:hover {
+    border: solid #337FED 1px;
+    background: #1E62D0;
+    background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -webkit-gradient(to bottom, #1E62D0, #3D94F6);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+ }
