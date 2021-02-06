@@ -108,7 +108,7 @@ section{
     border-radius: 20px;
     text-decoration: none;
  }
- @media (max-width: 400px) {
+ @media (max-width: 600px) {
 
     #title {
       text-align: center;
