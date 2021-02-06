@@ -108,3 +108,22 @@ section{
     border-radius: 20px;
     text-decoration: none;
  }
+ @media (max-width: 400px) {
+
+    #title {
+      text-align: center;
+    }
+  section{
+      padding:10px;
+  }
+  .about-section, .skills-section, .title-container {
+    padding: 100px 15px 15px 10px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+.interest-section{
+    padding: 0 15px 15px 10px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+  }
